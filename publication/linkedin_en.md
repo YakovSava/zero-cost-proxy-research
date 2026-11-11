@@ -19,8 +19,8 @@ Not new: curvature-adaptive steps without extra network calls were proposed befo
 
 Limits: one model, 12 images, hypotheses not pre-registered, first-step finding post hoc, main metric is latent distance.
 
-Preprint: ZENODO-URL
-Code: REPOSITORY-URL
+Preprint: https://doi.org/10.5281/zenodo.24143896
+Code: https://github.com/YakovSava/zero-cost-proxy-research
 
 #MachineLearning #DiffusionModels #GenerativeAI #NumericalMethods #OpenSource #ComfyUI
 

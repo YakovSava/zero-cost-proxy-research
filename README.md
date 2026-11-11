@@ -2,8 +2,11 @@
 
 **Languages:** **English** · [Русский](README.ru.md) · [中文](README.zh.md) · [Марий](README.mhr.md)
 
-This file is the full record and the authoritative version. The translations are condensed summaries
-(main results, hypotheses and their verdicts, limits); where they differ, this file is right.
+Preprint: [10.5281/zenodo.24143896](https://doi.org/10.5281/zenodo.24143896). Code: [YakovSava/zero-cost-proxy-research](https://github.com/YakovSava/zero-cost-proxy-research).
+
+This file is the original and the authoritative version. The Russian and Chinese files are full
+translations of it; the Meadow Mari file is a full machine-assisted translation that has not been reviewed by
+a native speaker. Where a translation differs from this file, this file is right.
 
 **Status (2026-11-10): experiments finished except where a section says otherwise.**
 Everything below is reproducible from this directory; raw numbers are in `results/*.json`.

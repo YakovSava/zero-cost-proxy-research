@@ -82,7 +82,9 @@ Savelev, I. (2026c). *Where, not how much: Fixed versus adaptive noise schedules
 
 Savelev, I., & Yuzvynsky, Y. (2026). *Adaptive step samplers: Zero-cost truncation error estimation and exposed stochastic control for ComfyUI* [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23529356
 
-Savelev, I. (2026d). *flow_zero_cost_proxy* [Computer software]. Local repository, not yet published. **[ссылку и DOI добавить после публикации]**
+Savelev, I. (2026d). *Zero-cost curvature proxies for adaptive stepping in flow matching: A calibrated error predictor, a static grid, and no measurable headroom for per-sample control* (Version 1.0) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24143896
+
+Savelev, I. (2026e). *zero-cost-proxy-research* [Computer software]. GitHub. https://github.com/YakovSava/zero-cost-proxy-research
 
 Savitzky, A., & Golay, M. J. E. (1964). Smoothing and differentiation of data by simplified least squares procedures. *Analytical Chemistry, 36*(8), 1627-1639. https://doi.org/10.1021/ac60214a047
 

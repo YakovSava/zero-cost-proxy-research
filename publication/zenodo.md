@@ -1,6 +1,6 @@
 # Zenodo: метаданные и описание
 
-DOI: будет присвоен при публикации.
+DOI: 10.5281/zenodo.24143896
 
 ## Поля формы
 
@@ -14,12 +14,12 @@ DOI: будет присвоен при публикации.
 | Authors | Savelev, Iakov (GitHub: YakovSava). Второго автора добавьте сами: Yuzvynsky, Yehor, если он указывается как соавтор |
 | License | Creative Commons Attribution 4.0 (текст); код в репозитории под MIT |
 | Keywords | flow matching; ODE sampler; adaptive step size; step schedule; truncation error; curvature; classifier-free guidance; bfloat16; ComfyUI; diffusion models; negative result |
-| Related identifiers | "Continues": 10.5281/zenodo.23529356 (DOI, adaptive-step-samplers: бесплатная оценка ошибки усечения). "Is supplemented by": URL репозитория (создайте и вставьте после `git push`; сейчас код только локальный). "References": arXiv:2609.01746 (CAT-Flow, ближайшая работа). "References": 10.5281/zenodo.23337579, 10.5281/zenodo.23939696 (по желанию) |
+| Related identifiers | "Continues": 10.5281/zenodo.23529356 (DOI, adaptive-step-samplers: бесплатная оценка ошибки усечения). "Is supplemented by": https://github.com/YakovSava/zero-cost-proxy-research (URL). "References": arXiv:2609.01746 (CAT-Flow, ближайшая работа). "References": 10.5281/zenodo.23337579, 10.5281/zenodo.23939696 (по желанию) |
 | References | Вставьте список из `publication/references_apa.md`, по одной ссылке на строку |
 
 Перед публикацией:
 
-1. Создайте репозиторий и выполните `git push`. Сейчас `flow_zero_cost_proxy` не закоммичен, а ссылки на GitHub в текстах заработают только после этого.
+1. Выполните коммит и `git push` в `origin` (https://github.com/YakovSava/zero-cost-proxy-research). Сейчас всё лежит в рабочей папке незакоммиченным, поэтому ссылки на GitHub в текстах заработают только после этого. Папка называется `flow_zero_cost_proxy`, репозиторий `zero-cost-proxy-research`: имя в README и текстах везде репозиторное.
 2. Положите в запись README.md и `figures/` (минимум `grid_face_s42.jpg`, `grid_fur_s42.jpg`, `error_vs_first_step.png`).
 3. Решите, указывать ли помощь ИИ. Код, анализ и черновики текстов подготовлены с ассистентом Claude (Anthropic) по вашим указаниям. Правила Zenodo, журналов и площадок (Medium, Habr) всё чаще требуют раскрытия такого использования. Готовая формулировка есть в конце описания ниже (отмечена как необязательная).
 4. Проверьте уровни B-D в `references_apa.md`.
@@ -45,7 +45,7 @@ DOI: будет присвоен при публикации.
 
 <p><b>Limitations.</b> One model, one resolution, one CFG scale, 12 units; effects below about 5-8% are not detectable. The main metric is relative L2 distance of the final latent to a converged solution; LPIPS was checked for one grid only. The hypotheses were not pre-registered in a file before the measurements, and the first-step finding is post hoc (the control experiments were designed after it). The propagation profile used by the best grid was measured on two of the 12 evaluation units, so the rows that use it are slightly optimistic; the plain angle-rate grids are leave-one-out. The study covers deterministic Euler and Adams-Bashforth 2 only.</p>
 
-<p><b>Software.</b> Code, tests, tables (<code>results/</code>), figures and ready-made sigma lists for Anima are in the repository: <a href="REPOSITORY-URL">REPOSITORY-URL</a>. The full record, with the hypothesis table and all intervals, is the README.</p>
+<p><b>Software.</b> Code, tests, tables (<code>results/</code>), figures and ready-made sigma lists for Anima are in the repository: <a href="https://github.com/YakovSava/zero-cost-proxy-research">https://github.com/YakovSava/zero-cost-proxy-research</a>. The full record, with the hypothesis table and all intervals, is the README.</p>
 
 <p><i>AI assistance (optional, edit to taste).</i> The code, the analysis scripts and the first drafts of the texts were produced with an AI coding assistant (Claude, Anthropic) under the author's direction. The author checked the results and is responsible for the content.</p>
 ```

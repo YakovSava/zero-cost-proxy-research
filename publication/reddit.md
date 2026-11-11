@@ -22,8 +22,8 @@ You can try it without any node: put the sigma list into a manual-sigmas node an
 
 What this is not: one model, 12 images, no human preference test, and the main metric is distance in latent space. Hypotheses were not pre-registered; the first-step finding was post hoc. Also, the idea itself is not new: CAT-Flow (arXiv 2609.01746) already proposes zero-extra-evaluation curvature-adaptive steps for flow models, and static schedules fitted to a model exist too (Align Your Steps, Optimal Stepsize Distillation). I found CAT-Flow after the experiments and did not compare with it. What I think is new is the test that per-image adaptation adds nothing on top of a static grid on this model, and the measurements of the bf16 noise floor.
 
-Repo with code, tests, tables and sigma lists: REPOSITORY-URL
-Write-up: ZENODO-URL
+Repo with code, tests, tables and sigma lists: https://github.com/YakovSava/zero-cost-proxy-research
+Write-up: https://doi.org/10.5281/zenodo.24143896
 
 *(Code and first drafts were produced with an AI coding assistant, Claude, under my direction; I checked the results.)*
 
@@ -51,6 +51,6 @@ Write-up: ZENODO-URL
 
 **Prior art and limits.** CAT-Flow (Li et al., 2026) proposes training-free, zero-extra-NFE curvature-adaptive steps for flow matching; I found it after the experiments, read only its abstract and introduction, and did not compare. Static schedules fitted to a model: Align Your Steps, Optimal Stepsize Distillation, Bespoke Solvers. What I think this adds: the decomposition, the calibration against true local error on a real model, the noise floor, and the borrowed-grid/oracle test of per-sample adaptation. Limits: one model, 12 units, latent L2 as the main metric, the propagation profile measured on two of the evaluation units, 3-10% sensitivity of the output to 1e-7 sigma shifts in bf16.
 
-Code, tests, tables: REPOSITORY-URL. Write-up: ZENODO-URL.
+Code, tests, tables: https://github.com/YakovSava/zero-cost-proxy-research. Write-up: https://doi.org/10.5281/zenodo.24143896.
 
 *(Code and first drafts were produced with an AI coding assistant, Claude, under my direction; I checked the results.)*

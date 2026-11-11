@@ -75,6 +75,6 @@ The grid puts its steps early, where composition is decided, and few at the end,
 
 The repository has the code, 30 tests, all tables and figures, and sigma lists for Anima at 8, 12, 16 and 24 evaluations that you can feed to a manual-sigmas node with the stock `euler` sampler (576x768, CFG 5, Anima only). There is no ComfyUI node. To make a grid for another model you need reference trajectories of that model to compute the angle-rate profile, which takes about two minutes per image here. I did not test how few images are enough.
 
-Full record, hypothesis table and all intervals: the README in the repository. Preprint and code: links to be added after publication.
+Full record, hypothesis table and all intervals: the README in the repository. Preprint: https://doi.org/10.5281/zenodo.24143896. Code: https://github.com/YakovSava/zero-cost-proxy-research.
 
 *AI assistance (optional): the code, analysis scripts and first drafts of this text were produced with an AI coding assistant (Claude, Anthropic) under my direction. I checked the results and I am responsible for the content.*
