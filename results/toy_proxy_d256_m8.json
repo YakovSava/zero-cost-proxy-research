@@ -1,0 +1,56 @@
+{
+  "16": {
+    "rotation": {
+      "pooled_log": 0.709059444122285,
+      "profile_spearman": 0.7178571428571427,
+      "within_time_log": 0.5722531712783492
+    },
+    "turning": {
+      "pooled_log": 0.7913090081733702,
+      "profile_spearman": 0.8107142857142855,
+      "within_time_log": 0.5697536854161961
+    },
+    "stretch": {
+      "pooled_log": 0.590700407043468,
+      "profile_spearman": 0.7035714285714285,
+      "within_time_log": -0.030472511432590423
+    },
+    "acceleration": {
+      "pooled_log": 0.8963105267851346,
+      "profile_spearman": 0.9392857142857142,
+      "within_time_log": 0.6489588987751801
+    },
+    "curvature": {
+      "pooled_log": 0.811591785473042,
+      "profile_spearman": 0.8642857142857141,
+      "within_time_log": 0.5627985593815372
+    }
+  },
+  "32": {
+    "rotation": {
+      "pooled_log": 0.8149787991160802,
+      "profile_spearman": 0.7693548387096776,
+      "within_time_log": 0.8064807073177296
+    },
+    "turning": {
+      "pooled_log": 0.8701260001410507,
+      "profile_spearman": 0.8685483870967743,
+      "within_time_log": 0.8013389686005044
+    },
+    "stretch": {
+      "pooled_log": 0.41790248786966594,
+      "profile_spearman": 0.5387096774193548,
+      "within_time_log": -0.29292977208013715
+    },
+    "acceleration": {
+      "pooled_log": 0.9699308481329916,
+      "profile_spearman": 0.985483870967742,
+      "within_time_log": 0.8934147916953518
+    },
+    "curvature": {
+      "pooled_log": 0.8741299621761744,
+      "profile_spearman": 0.9060483870967743,
+      "within_time_log": 0.7900326104369331
+    }
+  }
+}
